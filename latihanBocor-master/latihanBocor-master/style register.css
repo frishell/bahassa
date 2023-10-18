@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 400px;
+    margin: 135px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    display: block;
+    color: #007bff;
+    cursor: pointer;
+}
+
+h3 :hover {
+    color: #007bff;
+}
+h4 {
+    font-size: 15px;
+    display: block;
+    color: #000000;
+}
+
+h5 {
+    color: #007bff;
+    font-size: larger;
+} 
+.form-register {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin: 20px;
+    justify-content: center; /* Pusat secara horizontal */
+    align-items: center; /* Pusat secara vertikal */
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    
+    
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
